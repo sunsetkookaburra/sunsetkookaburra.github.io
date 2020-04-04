@@ -9,6 +9,7 @@
   --bgHover: #406070;
   --fgColour: #eeeeee;
   --fontOne: Cascadia;
+  font-size: calc(100% + 2vw);
 }
 
 body {
@@ -59,8 +60,7 @@ header {
   grid-area: n;
   display: grid;
   padding: 0 5%;
-  grid-template-columns: 1fr 1fr;
-  grid-auto-rows: 1fr;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
   gap: 6% 3%;
   font-family: var(--fontOne);
 }
