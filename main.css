@@ -1,0 +1,85 @@
+@font-face {
+  font-family: Cascadia;
+  src: url(cascadia.ttf);
+}
+
+:root {
+  --bgColour: #304050;
+  --bgAccent: #405060;
+  --bgHover: #406070;
+  --fgColour: #eeeeee;
+  --fontOne: Cascadia;
+}
+
+body {
+  width: 800px;
+  margin: 20px auto;
+  background-color: var(--bgColour);
+  fill: var(--fgColour);
+  color: var(--fgColour);
+}
+
+header {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  grid-template-areas: 
+    "l i r"
+    "t t t"
+    "n n n";
+}
+
+.header-left {
+  grid-area: l;
+  font-family: var(--fontOne);
+}
+
+.header-right {
+  grid-area: r;
+  font-family: var(--fontOne);
+}
+
+.header-logo {
+  grid-area: i;
+  display: block;
+  width: 100%;
+  margin: 0 auto;
+  border-radius: 50%;
+}
+
+.header-title {
+  grid-area: t;
+  font-family: var(--fontOne);
+}
+
+.header-nav {
+  grid-area: n;
+  display: grid;
+  padding: 0 5%;
+  grid-template-columns: 1fr 1fr;
+  grid-auto-rows: 1fr;
+  gap: 6% 3%;
+  font-family: var(--fontOne);
+}
+.header-nav > a {
+  padding: 10%;
+  background-color: var(--bgAccent);
+  border-radius: 10px;
+  text-decoration: none;
+  color: var(--fgColour);
+}
+.header-nav > a:hover {
+  background-color: var(--bgHover);
+}
+.header-nav > a > h1 {
+  margin: 0;
+}
+.header-nav > a > p {
+  margin: 0;
+  margin-top: 5%;
+}
+
+@media (max-width: 850px) {
+  body {
+    width: 100%;
+  }
+}
