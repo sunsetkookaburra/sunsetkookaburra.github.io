@@ -31,16 +31,19 @@ header {
 }
 
 .header-left {
+  background-color: red;
   grid-area: l;
   font-family: var(--fontOne);
 }
 
 .header-right {
+  background-color: blue;
   grid-area: r;
   font-family: var(--fontOne);
 }
 
 .header-logo {
+  background-color: green;
   grid-area: i;
   display: block;
   width: 100%;
