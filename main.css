@@ -26,6 +26,8 @@ header {
     "l i r"
     "t t t"
     "n n n";
+  width: 100%;
+  min-width: 100%;
 }
 
 .header-left {
