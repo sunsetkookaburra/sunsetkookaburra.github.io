@@ -9,7 +9,6 @@
   --bgHover: #406070;
   --fgColour: #eeeeee;
   --fontOne: Cascadia;
-  font-size: calc(100% + 2vw);
 }
 
 body {
