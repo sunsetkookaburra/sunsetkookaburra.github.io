@@ -21,7 +21,7 @@ body {
 
 header {
   display: grid;
-  grid-template-columns: 1fr 2fr 1fr;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 2fr) minmax(0, 1fr);
   grid-template-areas: 
     "l i r"
     "t t t"
@@ -31,24 +31,23 @@ header {
 }
 
 .header-left {
-  background-color: red;
   grid-area: l;
+  width: 100%;
   font-family: var(--fontOne);
 }
 
 .header-right {
-  background-color: blue;
   grid-area: r;
+  width: 100%;
   font-family: var(--fontOne);
 }
 
 .header-logo {
-  background-color: green;
   grid-area: i;
   display: block;
-  width: 100%;
   margin: 0 auto;
   border-radius: 50%;
+  width: 100%;
 }
 
 .header-title {
