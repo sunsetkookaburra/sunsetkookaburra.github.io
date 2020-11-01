@@ -1,10 +1,10 @@
 @font-face {
   font-family: "Cascadia";
-  src: url("../_res/cascadia.ttf") format("truetype");
+  src: url("../res/cascadia.ttf") format("truetype");
 }
 @font-face {
   font-family: "Noto Colour Emoji";
-  src: url("../_res/noto-colour-emoji.ttf") format("opentype");
+  src: url("../res/noto-colour-emoji.ttf") format("opentype");
 }
 
 *,*::before,*::after{box-sizing:inherit;}
