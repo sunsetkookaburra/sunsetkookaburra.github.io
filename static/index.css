@@ -1,0 +1,46 @@
+
+header {
+  text-align: center;
+}
+
+header picture {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header picture::before, header picture::after {
+  content: "";
+  display: inline-flex;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: contain;
+  width: 5.5rem;
+  height: min(16rem, 50vmin);
+}
+
+header picture::before {
+  background-image: url("https://static.sunsetkookaburra.xyz/font/lbrace.svg");
+  margin-right: -0.75rem;
+}
+
+header picture::after {
+  background-image: url("https://static.sunsetkookaburra.xyz/font/rbrace.svg");
+  margin-left: -0.75rem;
+}
+
+header img {
+  width: min(16rem, 50vmin);
+  height: min(16rem, 50vmin);
+  border: min(1.5rem, 5vmin) solid var(--theme-fg);
+  border-radius: 50%;
+}
+
+h1 {
+  font-size: min(3rem, 10vw);
+  line-height: 0.8;
+}
+
+h1 .tag {
+  font-size: 0.8em;
+}

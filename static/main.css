@@ -2,7 +2,36 @@
 
 *, *::before, *::after { box-sizing: inherit }
 
-@import url("/font.css");
+@font-face {
+  font-family:"Atkinson Hyperlegible";
+  src: url("https://static.sunsetkookaburra.xyz/font/Atkinson-Hyperlegible-Regular-102a.woff2");
+}
+
+@font-face {
+  font-family:"Atkinson Hyperlegible";
+  font-weight: bold;
+  src: url("https://static.sunsetkookaburra.xyz/font/Atkinson-Hyperlegible-Bold-102a.woff2");
+}
+
+@font-face {
+  font-family:"Atkinson Hyperlegible";
+  font-style: italic;
+  src: url("https://static.sunsetkookaburra.xyz/font/Atkinson-Hyperlegible-Italic-102a.woff2");
+}
+
+@font-face {
+  font-family:"Atkinson Hyperlegible";
+  font-weight: bold;
+  font-style: italic;
+  src: url("https://static.sunsetkookaburra.xyz/font/Atkinson-Hyperlegible-BoldItalic-102a.woff2");
+}
+
+@font-face {
+  font-family:"Cascadia Cursive";
+  font-style: italic;
+  font-feature-settings: calt, ss01, ss19;
+  src: url("https://static.sunsetkookaburra.xyz/font/cascadia-mono-cursive.ttf");
+}
 
 :root {
   --theme-bg: #304050;
@@ -20,9 +49,14 @@
 
 body {
   max-width: 80ch;
-  margin: 0 auto;
+  margin: 1rem auto;
+  padding: 1rem;
 }
 
 a {
   color: var(--theme-link);
+}
+
+h1 {
+  font-family: "Cascadia Cursive";
 }

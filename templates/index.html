@@ -1,7 +1,14 @@
 {% extends "base.html" %}
 
+{% block head %}
+  <link rel="stylesheet" href="/index.css"/>
+{% endblock head %}
+
 {% block header %}
-  <h1>Oliver Lenehan<br/>~sunsetkookaburra</h1>
+  <picture>
+    <img width="200" src="https://static.sunsetkookaburra.xyz/img/kookaburra.jpg" alt="A happy, professional looking kookaburra at sunset"/>
+  </picture>
+  <h1>Oliver Lenehan<br/><span class="tag">~sunsetkookaburra</span></h1>
 {% endblock header %}
 
 {% block content %}{{ section.content | safe }}
