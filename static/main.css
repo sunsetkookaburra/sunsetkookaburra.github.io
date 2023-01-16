@@ -36,8 +36,8 @@
 :root {
   --theme-bg: #304050;
   --theme-fg: #eeeeee;
-  --theme-accent-light: #202530;
-  --theme-accent-dark: #405060;
+  --theme-accent-dark: #202530;
+  --theme-accent-light: #405060;
   --theme-hover: #406070;
   --theme-link: #99ccff;
 

@@ -47,3 +47,65 @@ h1 .tag {
   font-size: 0.65em;
   font-weight: 800;
 }
+
+h2 {
+  max-width: 24rem;
+  margin: 2rem auto 1rem;
+}
+
+.buttonlinks {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  font-size: 2rem;
+  max-width: 24rem;
+  padding: 0;
+  margin: 1rem auto;
+  font-family: "Cascadia Cursive";
+}
+
+.buttonlinks > li {
+  list-style: none;
+}
+
+.buttonlinks > li > a {
+  display: flex;
+  text-decoration: none;
+  padding: 1rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 0.5rem solid var(--theme-accent-dark);
+  gap: 1rem;
+  border-radius: 0.5rem;
+  background-color: var(--theme-accent-dark);
+}
+
+.buttonlinks > li > a:hover {
+  border-bottom: 0.5rem solid var(--theme-hover);
+}
+
+.buttonlinks > li > a::before {
+  content: "";
+  display: inline-flex;
+  width: 1.2em;
+  height: 1.2em;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  justify-content: center;
+  align-items: center;
+}
+
+.buttonlinks a[data-logo="gh"]::before {
+  background-image: url("https://static.sunsetkookaburra.xyz/ico/mark-github-eee.svg");
+}
+
+.buttonlinks a[data-icon]::before {
+  content: attr(data-icon);
+}
+
+ul {
+  max-width: 24rem;
+  margin: 1rem auto;
+  padding: 0;
+  list-style-position: inside;
+}
