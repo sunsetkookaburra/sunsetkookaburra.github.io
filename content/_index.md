@@ -6,7 +6,7 @@
 * [input-macro](https://crates.io/crates/input-macro)
 * [rust-libesedb](https://crates.io/crates/libesedb)
 * [bitbin](https://github.com/sunsetkookaburra/bitbin)
-* [Where Am I?](https://sunsetkookaburra.xyz/geo/)
+* [Where Am I?](https://sunsetkookaburra.github.io/geo/)
 
 
 ## About Me
