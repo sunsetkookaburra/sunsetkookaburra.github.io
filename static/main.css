@@ -1,0 +1,28 @@
+/* (C) 2021-2022 Oliver Lenehan ~sunsetkookaburra */
+
+*, *::before, *::after { box-sizing: inherit }
+
+@import url("/font.css");
+
+:root {
+  --theme-bg: #304050;
+  --theme-fg: #eeeeee;
+  --theme-accent-light: #202530;
+  --theme-accent-dark: #405060;
+  --theme-hover: #406070;
+  --theme-link: #99ccff;
+
+  box-sizing: border-box;
+  background-color: var(--theme-bg);
+  color: var(--theme-fg);
+  font-family: "Atkinson Hyperlegible";
+}
+
+body {
+  max-width: 80ch;
+  margin: 0 auto;
+}
+
+a {
+  color: var(--theme-link);
+}
