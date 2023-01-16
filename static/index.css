@@ -37,10 +37,13 @@ header img {
 }
 
 h1 {
-  font-size: min(3rem, 10vw);
+  font-size: min(4rem, 13vw);
   line-height: 0.8;
+  font-weight: 100;
+  margin: 2rem 0;
 }
 
 h1 .tag {
   font-size: 0.65em;
+  font-weight: 800;
 }
