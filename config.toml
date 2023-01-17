@@ -1,10 +1,3 @@
-# The URL the site will be built for
 base_url = "https://sunsetkookaburra.xyz"
-
-[markdown]
-# Whether to do syntax highlighting
-# Theme can be customised by setting the `highlight_theme` variable to a theme supported by Zola
-highlight_code = false
-
-[extra]
-# Put all your custom variables here
+generate_feed = true
+title = "~sunsetkookaburra"
