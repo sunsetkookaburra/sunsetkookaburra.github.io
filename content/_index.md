@@ -6,12 +6,12 @@
   <li><a data-logo="gh" href="https://github.com/sunsetkookaburra">GitHub</a></li>
 </ul>
 
-## Projects
+## Selected Projects
 
 <ul class="buttonlinks" role="list">
   <li><a data-icon="🦀" href="https://crates.io/crates/input-macro">input-macro</a></li>
   <li><a data-icon="🦀" href="https://sunsetkookaburra.xyz/blog">rust-libesedb</a></li>
-  <li><a data-icon="🔃" href="https://github.com/sunsetkookaburra/bitbin">BitBin</a></li>
+  <li><a data-icon="🔃" href="https://github.com/sunsetkookaburra/bitbin">bitbin</a></li>
   <li><a data-icon="🧭" href="https://sunsetkookaburra.github.io/geo/">Where am I?</a></li>
 </ul>
 
