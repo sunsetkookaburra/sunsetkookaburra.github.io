@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+
+{% block header %}
+{% endblock header %}
+
+{% block main %}
+{% for page in section.pages %}
+  {{ page.title }}
+{% endfor %}
+{% endblock main %}

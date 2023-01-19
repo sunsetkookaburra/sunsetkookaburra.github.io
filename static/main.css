@@ -60,3 +60,8 @@ a {
 h1 {
   font-family: "Cascadia Cursive";
 }
+
+hr {
+  border-radius: 0.15rem;
+  border: 0.15rem solid white;
+}
