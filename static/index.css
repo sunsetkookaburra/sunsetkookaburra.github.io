@@ -101,6 +101,11 @@ h2 {
   background-image: url("https://static.sunsetkookaburra.xyz/ico/mark-github-eee.svg");
 }
 
+.buttonlinks a[data-logo="maps"]::before {
+  background-image: url("https://maps.sunsetkookaburra.xyz/res/map.png");
+  image-rendering: pixelated;
+}
+
 .buttonlinks a[data-icon]::before {
   content: attr(data-icon);
 }
