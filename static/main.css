@@ -51,6 +51,8 @@ body {
   max-width: 80ch;
   margin: 1rem auto;
   padding: 1rem;
+
+  -webkit-text-size-adjust: 100%;
 }
 
 a {
