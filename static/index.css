@@ -41,7 +41,7 @@ header img {
 }
 
 h1 {
-  font-size: min(4rem, 12vw);
+  font-size: min(3.8rem, 12vw);
   line-height: 0.8;
   font-weight: 100;
   margin: 2rem 0;
@@ -63,7 +63,7 @@ h2 {
   font-size: 1.7rem;
   padding: 0;
   margin: 1rem auto;
-  font-family: "Cascadia Cursive";
+  font-family: "Cascadia ASCII";
   font-style: italic;
 }
 

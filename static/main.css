@@ -27,10 +27,14 @@
 }
 
 @font-face {
-  font-family:"Cascadia Cursive";
+  font-family:"Cascadia ASCII";
+  src: url("https://static.sunsetkookaburra.xyz/font/CascadiaASCII.ttf") format("truetype");
+}
+
+@font-face {
+  font-family:"Cascadia ASCII";
   font-style: italic;
-  font-feature-settings: calt, ss01, ss19;
-  src: url("https://static.sunsetkookaburra.xyz/font/cascadia-mono-cursive.ttf") format("truetype");
+  src: url("https://static.sunsetkookaburra.xyz/font/CascadiaCursiveASCII.ttf") format("truetype");
 }
 
 :root {
@@ -60,7 +64,7 @@ a {
 }
 
 h1 {
-  font-family: "Cascadia Cursive";
+  font-family: "Cascadia ASCII";
   font-style: italic;
 }
 
