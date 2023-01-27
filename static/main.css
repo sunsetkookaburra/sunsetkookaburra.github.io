@@ -4,33 +4,33 @@
 
 @font-face {
   font-family:"Atkinson Hyperlegible";
-  src: url("https://static.sunsetkookaburra.xyz/font/Atkinson-Hyperlegible-Regular-102a.woff2");
+  src: url("https://static.sunsetkookaburra.xyz/font/Atkinson-Hyperlegible-Regular-102a.woff2") format("woff2");
 }
 
 @font-face {
   font-family:"Atkinson Hyperlegible";
   font-weight: bold;
-  src: url("https://static.sunsetkookaburra.xyz/font/Atkinson-Hyperlegible-Bold-102a.woff2");
+  src: url("https://static.sunsetkookaburra.xyz/font/Atkinson-Hyperlegible-Bold-102a.woff2") format("woff2");
 }
 
 @font-face {
   font-family:"Atkinson Hyperlegible";
   font-style: italic;
-  src: url("https://static.sunsetkookaburra.xyz/font/Atkinson-Hyperlegible-Italic-102a.woff2");
+  src: url("https://static.sunsetkookaburra.xyz/font/Atkinson-Hyperlegible-Italic-102a.woff2") format("woff2");
 }
 
 @font-face {
   font-family:"Atkinson Hyperlegible";
   font-weight: bold;
   font-style: italic;
-  src: url("https://static.sunsetkookaburra.xyz/font/Atkinson-Hyperlegible-BoldItalic-102a.woff2");
+  src: url("https://static.sunsetkookaburra.xyz/font/Atkinson-Hyperlegible-BoldItalic-102a.woff2") format("woff2");
 }
 
 @font-face {
   font-family:"Cascadia Cursive";
   font-style: italic;
   font-feature-settings: calt, ss01, ss19;
-  src: url("https://static.sunsetkookaburra.xyz/font/cascadia-mono-cursive.ttf");
+  src: url("https://static.sunsetkookaburra.xyz/font/cascadia-mono-cursive.ttf") format("truetype");
 }
 
 :root {
