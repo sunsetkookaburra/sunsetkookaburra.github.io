@@ -17,6 +17,12 @@
   <li><a data-icon="🤖" href="https://spxrobots.org">spxrobots</a></li>
 </ul>
 
+## Tidbits
+
+<ul class="buttonlinks" role="list">
+  <li><a data-icon="☕" href="./tidbits/jrun">jrun.sh</a></li>
+</ul>
+
 ## About Me
 
 * Sydney, Australia

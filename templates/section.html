@@ -1,10 +1,14 @@
 {% extends "base.html" %}
 
 {% block header %}
+<h1>{{ section.title }}</h1>
 {% endblock header %}
 
 {% block main %}
+<ul role="list">
 {% for page in section.pages %}
-  {{ page.title }}
+  <li><a href="{{ page.path | safe }}">{{ page.title }}</a></li>
 {% endfor %}
+</ul>
+{{ section.content | safe }}
 {% endblock main %}

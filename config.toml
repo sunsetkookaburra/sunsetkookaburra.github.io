@@ -1,3 +1,6 @@
 base_url = "https://sunsetkookaburra.xyz"
 generate_feed = true
 title = "~sunsetkookaburra"
+
+[markdown]
+highlight_code = true
