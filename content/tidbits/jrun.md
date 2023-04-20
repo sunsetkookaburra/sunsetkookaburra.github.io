@@ -45,7 +45,7 @@ mkdir -p build/ &&
 # Change into the src/ directory
 # List and compile all .java files, and output into the ../build/ directory.
 echo "Compiling .java files ..." &&
-cd src/ && list_sources | xargs -0 javac -d ../build/ && cd .. &&
+pushd src/ && list_sources | xargs -0 javac -d ../build/ && popd &&
 
 # Create a .jar file to bundle & distribute your program.
 #   c = create new archive (jarfile)
@@ -61,7 +61,7 @@ jar cvfe "$1".jar "$1" -C build/ . &&
 #   u = update jar file, add new items
 #   $resources = (unquoted important) list the resources files (.jpeg, .xml, etc) to include
 echo "Adding resources to .jar ..." &&
-cd src/ && list_resources | xargs -0 jar uvf ../"$1".jar && cd .. &&
+pushd src/ && list_resources | xargs -0 jar uvf ../"$1".jar && popd &&
 
 # Run the binary
 echo "Done." &&
