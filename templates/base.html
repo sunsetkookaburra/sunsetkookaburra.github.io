@@ -5,14 +5,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <link rel="stylesheet" href="/main.css"/>
   {% block head %}{% endblock head %}
-  {% set root = page | default(value=section) %}
-  {% if root.extra.style %}
+  {%- set root = page | default(value=section) -%}
+  {%- if root.extra.style -%}
   {{ "<" ~ "style" ~ ">" | safe }}
-    {% for style in root.extra.style %}
-    {{- style.rule | trim | safe }}
-    {% endfor %}
+    {{ root.extra.style | trim | safe }}
   {{ "</" ~ "style" ~ ">" | safe }}
-  {% endif %}
+  {%- endif -%}
   <title>Oli Lenehan ~sunsetkookaburra</title>
 </head>
 <body>

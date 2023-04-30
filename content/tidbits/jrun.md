@@ -1,18 +1,6 @@
 +++
 title = "jrun.sh"
-
-[[extra.style]]
-rule = """
-  pre {
-    border-radius: 1rem;
-    overflow-x: scroll;
-  }
-  pre > code {
-    display: block;
-    padding: 2rem;
-    float: left;
-  }
-"""
+date = "2023-04-21"
 +++
 
 A simple Java project build script.

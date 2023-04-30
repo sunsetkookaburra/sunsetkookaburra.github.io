@@ -72,3 +72,15 @@ hr {
   border-radius: 0.15rem;
   border: 0.15rem solid white;
 }
+
+/* --- Code Blocks --- */
+
+pre {
+  border-radius: 1rem;
+  overflow-x: auto;
+}
+pre > code {
+  display: block;
+  padding: 2rem;
+  float: left;
+}
