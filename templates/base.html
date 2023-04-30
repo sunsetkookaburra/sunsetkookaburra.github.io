@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <link rel="stylesheet" href="/main.css"/>
   {% block head %}{% endblock head %}
-  {%- set root = page | default(value=section) -%}
+  {%- set root = page | default(value=section | default(value=config | default(value=[]))) -%}
   {%- if root.extra.style -%}
   {{ "<" ~ "style" ~ ">" | safe }}
     {{ root.extra.style | trim | safe }}

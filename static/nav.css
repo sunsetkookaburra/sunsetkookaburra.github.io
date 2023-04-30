@@ -1,7 +1,3 @@
-header > h1 {
-  margin: 0.5rem 0;
-}
-
 header > nav {
   margin-bottom: 3rem;
 }
@@ -57,10 +53,4 @@ header > nav a > img {
   height: 1.25em;
   border: 0.15em solid var(--theme-fg);
   border-radius: 50%;
-}
-
-header time {
-  display: block;
-  opacity: 0.5;
-  padding-left: 1rem;
 }
