@@ -21,6 +21,7 @@
 
 <ul class="buttonlinks" role="list">
   <li><a data-icon="☕" href="./tidbits/jrun">jrun.sh</a></li>
+  <li><a data-icon="💼" href="./tidbits/tools">Programming Tools</a></li>
 </ul>
 
 ## About Me
