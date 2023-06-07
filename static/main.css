@@ -74,9 +74,19 @@ hr {
   border: 0.15rem solid white;
 }
 
+header {
+  margin-bottom: 2rem;
+}
+
 header time {
   display: block;
   opacity: 0.5;
+  padding-left: 1rem;
+}
+
+header p {
+  opacity: 0.8;
+  margin: 0;
   padding-left: 1rem;
 }
 
