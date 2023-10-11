@@ -40,12 +40,12 @@ header > nav a::before, header > nav a::after {
 
 header > nav a::before {
   content: "";
-  background-image: url("https://static.sunsetkookaburra.xyz/font/lbrace.svg");
+  background-image: url("https://static.sunsetkookaburra.net/font/lbrace.svg");
 }
 
 header > nav a::after {
   content: "";
-  background-image: url("https://static.sunsetkookaburra.xyz/font/rbrace.svg");
+  background-image: url("https://static.sunsetkookaburra.net/font/rbrace.svg");
 }
 
 header > nav a > img {

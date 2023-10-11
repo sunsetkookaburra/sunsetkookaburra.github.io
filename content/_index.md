@@ -4,7 +4,7 @@
 <ul class="buttonlinks" role="list">
   <!-- <li><a data-icon="📝" href="/blog">Blog</a></li> -->
   <li><a data-logo="gh" href="https://github.com/sunsetkookaburra">GitHub</a></li>
-  <li><a data-logo="maps" href="https://maps.sunsetkookaburra.xyz">Maps</a></li>
+  <li><a data-logo="maps" href="https://maps.sunsetkookaburra.net">Maps</a></li>
 </ul>
 
 ## Selected Projects
