@@ -30,6 +30,7 @@
 * 3rd Year CompSci @ UTS
 * Hobby Programmer
 * Robotics Mentor
+* TSO
 
 ## Correspondence
 
