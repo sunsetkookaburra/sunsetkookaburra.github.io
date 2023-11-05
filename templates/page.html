@@ -1,16 +1,28 @@
 {% extends "base.html" %}
 
-{% block head %}
+{%- block link -%}
+{{ super() }}
   <link rel="stylesheet" href="/nav.css"/>
-{% endblock head %}
+{%- endblock link -%}
 
-{% block header %}
+{%- block meta -%}
+{{ super() }}
+{%- if page.date %}
+  <meta name="date" content="{{ page.date }}"/>
+{%- endif %}
+{%- endblock meta -%}
+
+{%- block header %}
 {% include "nav.html" %}
-<h1>{{ page.title }}</h1>
-{% if page.date %}<time datetime="{{ page.date }}">{{ page.date | date(format="%-d %B, %Y", timezone="Australia/Sydney") }}</time>{% endif %}
-{% if page.description %}<p>{{ page.description }}</p>{% endif %}
-{% endblock header %}
+  <h1>{{ page.title }}</h1>
+  {%- if page.date %}
+  <time datetime="{{ page.date }}">
+    {{- page.date | date(format="%-d %B, %Y", timezone="Australia/Sydney") -}}
+  </time>
+  {%- endif %}
+  {% if page.description %}<p>{{ page.description }}</p>{% endif %}
+{%- endblock header %}
 
-{% block main -%}
-{{ page.content | safe }}
+{%- block main -%}
+{{ page.content | indent(first=true, prefix="  ") | safe }}
 {%- endblock main %}
