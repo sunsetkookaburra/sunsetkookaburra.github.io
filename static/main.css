@@ -3,38 +3,44 @@
 *, *::before, *::after { box-sizing: inherit }
 
 @font-face {
-  font-family:"Atkinson Hyperlegible";
-  src: url("https://static.sunsetkookaburra.net/font/Atkinson-Hyperlegible-Regular-102a.woff2") format("woff2");
+  font-family: "Atkinson Hyperlegible";
+  src: local("Atkinson Hyperlegible"), local("Atkinson Hyperlegible Regular"), url("https://static.sunsetkookaburra.net/font/Atkinson-Hyperlegible-Regular-102a.woff2") format("woff2");
+  font-display: swap;
 }
 
 @font-face {
-  font-family:"Atkinson Hyperlegible";
+  font-family: "Atkinson Hyperlegible";
   font-weight: bold;
-  src: url("https://static.sunsetkookaburra.net/font/Atkinson-Hyperlegible-Bold-102a.woff2") format("woff2");
+  src: local("Atkinson Hyperlegible Bold"), url("https://static.sunsetkookaburra.net/font/Atkinson-Hyperlegible-Bold-102a.woff2") format("woff2");
+  font-display: swap;
 }
 
 @font-face {
-  font-family:"Atkinson Hyperlegible";
+  font-family: "Atkinson Hyperlegible";
   font-style: italic;
-  src: url("https://static.sunsetkookaburra.net/font/Atkinson-Hyperlegible-Italic-102a.woff2") format("woff2");
+  src: local("Atkinson Hyperlegible Italic"), url("https://static.sunsetkookaburra.net/font/Atkinson-Hyperlegible-Italic-102a.woff2") format("woff2");
+  font-display: swap;
 }
 
 @font-face {
-  font-family:"Atkinson Hyperlegible";
+  font-family: "Atkinson Hyperlegible";
   font-weight: bold;
   font-style: italic;
-  src: url("https://static.sunsetkookaburra.net/font/Atkinson-Hyperlegible-BoldItalic-102a.woff2") format("woff2");
+  src: local("Atkinson Hyperlegible Bold Italic"), url("https://static.sunsetkookaburra.net/font/Atkinson-Hyperlegible-BoldItalic-102a.woff2") format("woff2");
+  font-display: swap;
 }
 
 @font-face {
-  font-family:"Cascadia ASCII";
-  src: url("https://static.sunsetkookaburra.net/font/CascadiaASCII.ttf") format("truetype");
+  font-family: "Cascadia ASCII";
+  src: local("Cascadia Code"), local("Cascadia Mono"), url("https://static.sunsetkookaburra.net/font/CascadiaASCII.ttf") format("truetype");
+  font-display: swap;
 }
 
 @font-face {
-  font-family:"Cascadia ASCII";
+  font-family: "Cascadia ASCII";
   font-style: italic;
-  src: url("https://static.sunsetkookaburra.net/font/CascadiaCursiveASCII.ttf") format("truetype");
+  src: local("Cascadia Code Italic"), local("Cascadia Mono Italic"), url("https://static.sunsetkookaburra.net/font/CascadiaCursiveASCII.ttf") format("truetype");
+  font-display: swap;
 }
 
 :root {
