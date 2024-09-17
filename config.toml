@@ -1,5 +1,5 @@
 base_url = "https://sunsetkookaburra.net"
-generate_feed = true
+generate_feeds = true
 title = "~sunsetkookaburra"
 
 [markdown]

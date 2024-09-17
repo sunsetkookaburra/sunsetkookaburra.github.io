@@ -27,7 +27,7 @@
 ## About Me
 
 * Sydney, Australia
-* 3rd Year CompSci @ UTS
+* CompSci Graduate from UTS - University Medal
 * Hobby Programmer
 * Robotics Mentor
 * TSO
